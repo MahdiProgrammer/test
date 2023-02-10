@@ -1,0 +1,239 @@
+
+@font-face {
+    font-family: BeYakan;
+    src: url("../fonts/BYekan+.ttf") format("truetype");
+}
+@font-face {
+    font-family: "lalezar";
+    src: url("../fonts/Lalezar.woff") format("woff");
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+
+    scroll-behavior: smooth;
+}
+a:link { text-decoration: none; }
+body {
+
+    font-family: BeYakan, Tahoma;
+}
+
+.container{
+
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("../images/Jowhareh_galleries_poster_26c56018-aefa-4a43-b525-3ff03535ac10.jpeg");
+
+    background-color: rgba(0,0,0, 0.7);
+
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    background-blend-mode: color-dodge;
+
+
+}
+
+.header_top{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.header_left {
+
+    display: flex;
+    justify-content: left;
+    margin-right: 20%;
+}
+
+.header_left p {
+    padding: 5px 20px;
+    color:white;
+}
+
+.header_left .login {
+
+    background-color: #288ed9;
+    color: #fff;
+    border-radius: 30px;
+
+}
+
+
+.header_right {
+
+    display: flex;
+    justify-content: left;
+    width: 60%;
+
+}
+
+.logo {
+
+    display: flex;
+    width: 10%;
+    height: 100px;
+    justify-content: left;
+    margin-left: 1%;
+}
+
+.menu{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    margin-right: 20%;
+}
+
+.item {
+
+    padding: 20px 20px;
+    color: white;
+    font-size: 18px;
+
+
+}
+
+ .item:hover{
+
+    color: orange;
+ }
+.header_bottom {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.header_bottom .title{
+
+    color: orange;
+    display: block;
+    font-family: lalezar;
+}
+
+.header_bottom .desc{
+    font-size: 18px;
+    justify-content:center;
+}
+ 
+
+/* بخش اطلاعات*/
+
+.sections1, .sections2{
+
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+
+}
+
+.section_title{
+    
+    text-align: center;
+    padding-top: 100px;
+}
+.section_list{
+    display: flex;
+    padding: 100px 0;
+}
+.section_item{
+
+    margin: 0 10px;
+    padding: 40px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    text-align: justify;
+    color: #5e5e5e;
+    position: relative;
+}
+.place_item_title{
+    position:absolute;
+    width: 150px;
+background-color: #288ed9;
+color: #fff;
+top: -20px;
+text-align: center;
+border-radius: 25px;
+padding:5px  10px;
+left:0;
+right: 0;
+margin: auto;
+font-size: large;
+
+
+
+
+}
+.section_item img{
+   
+    width: 100%;
+    height: 300px;
+
+    
+}
+.place_item_info{
+    width: 100%;
+    height: 100%;
+    justify-self: auto;
+   
+
+}
+
+.about{
+
+    height: 700px;
+    background-image: url('../images/bg-footer.jpg');
+
+    background-size: cover;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.7);
+    background-blend-mode: darken;
+    color: white;
+
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: rgba(135, 135,135, 0.3);
+
+    padding: 100px 120px;
+
+
+}
+.about-text{
+
+margin-top: 80px;
+text-align: justify;
+}
+.footer{
+    background-color: #bbbbbb;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+.container-media{
+    height: 100px;
+    background-color: rgba(0,0,0, 0.7);
+
+}
+.img-media{
+    width: 100px;
+    height: 100px;
+    
+}
