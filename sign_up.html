@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- تغیر تم بروزر-->
+  <meta name="theme-color" content="#4e73df" />
+  <!-- فایل css کتابحانه بوتستراپ نسخه sb-->
+  <link rel="stylesheet" href="css/sb-admin.min.css" />
+  <title>ثبت نام</title>
+  <style type="text/css">
+    /* استفاده از فونت های دلخواه برای متن و آیکن*/
+@font-face {
+      font-family: 'iran_yekan';
+      src: url(fonts/iran_yekan.ttf);
+    }
+@font-face {
+      font-family: 'material-icons';
+      src: url(fonts/material-icons.ttf);
+    }
+    /* نام گذاری کلاس بصورت اختیاری بخاطر استفاده فونت آیکن*/
+    span.icon {
+      font-family: 'material-icons';
+    }
+    body {
+      height: 100vh;
+      font-family: 'iran_yekan';
+      
+    }
+    /* راست چین کردن انپوت ها*/
+    input {
+      direction: rtl;
+    }
+   form{
+    width: 450px;
+    margin: auto;
+   }
+  </style>
+</head>
+<body class="bg-light d-flex justify-content-center align-items-center">
+  <div class="col-md-5">
+    <form class="card p-5 text-center shadow-lg">
+      <h2 class="font-weight-bold pb-3">ثبت نام</h2>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="نام کاربری">
+        <div class="input-group-append">
+          <span class="input-group-text icon">person</span>
+        </div>
+      </div>
+      <div class="input-group my-2">
+        <input type="email" class="form-control" placeholder="آدرس ایمیل">
+        <div class="input-group-append">
+          <span class="input-group-text icon">email</span>
+        </div>
+      </div>
+      <div class="input-group mb-2">
+        <input type="password" class="form-control" placeholder="گذرواژه">
+        <div class="input-group-append">
+          <span class="input-group-text icon">lock</span>
+        </div>
+      </div>
+      <div class="input-group">
+        <input type="password" class="form-control" placeholder="گذرواژه (تکرار)">
+        <div class="input-group-append">
+          <span class="input-group-text icon">lock</span>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-success w-100 my-3 font-weight-bold shadow-sm">ثبت نام</button>
+    <a href="login.html">  <p class="text-center my-2">
+        وارد شدن با حساب
+      </p>
+    </a>
+      <div class="d-flex justify-content-around mt-2">
+        <a href="" class="btn btn-primary px-3">فیسبوک</a>
+        <a href="" class="btn btn-danger px-3">انستاگرام</a>
+		
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
